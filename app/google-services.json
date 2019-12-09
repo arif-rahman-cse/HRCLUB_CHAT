@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "34966117952",
+    "firebase_url": "https://hrclub-25e33.firebaseio.com",
+    "project_id": "hrclub-25e33",
+    "storage_bucket": "hrclub-25e33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34966117952:android:e9b1ba62298a511fbbc9a5",
+        "android_client_info": {
+          "package_name": "com.hrclubbd.hrclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34966117952-abfea1bds52acp1507r8dkso1j7hbsri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYM6pz228pbSM90YxiOdtJBdEUkz46gG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34966117952-abfea1bds52acp1507r8dkso1j7hbsri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

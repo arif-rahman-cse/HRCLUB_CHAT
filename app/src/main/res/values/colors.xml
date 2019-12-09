@@ -23,4 +23,10 @@
     <color name="DarkGrey">#737373 </color>
     <color name="Black">#000 </color>
 
+    <color name="blue">#0000FF</color>
+    <color name="blue_light">#1D7FAF</color>
+    <color name="blue_light_dark">#0471A6</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+
 </resources>

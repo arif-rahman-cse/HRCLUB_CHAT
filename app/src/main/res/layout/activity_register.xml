@@ -23,20 +23,28 @@
                     android:layout_height="wrap_content"
                     android:text="@string/email_registration"
                     android:textSize="25sp"
-                    android:textColor="@color/Black"
+                    android:textColor="@color/blue_light"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="30dp"
                     android:id="@+id/textEmailReg"/>
 
+                <EditText
+                    android:id="@+id/input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:inputType="textPersonName"
+                    android:hint="@string/prompt_name"
+                    android:layout_below="@+id/textEmailReg"/>
 
                 <EditText
                     android:id="@+id/input_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="20dp"
                     android:inputType="textEmailAddress"
                     android:hint="@string/prompt_email"
-                    android:layout_below="@+id/textEmailReg"/>
+                    android:layout_below="@+id/input_name"/>
 
 
                 <EditText
@@ -58,20 +66,20 @@
                     android:layout_below="@+id/input_password"/>
 
 
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_register"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="35dp"
                     android:layout_below="@+id/input_confirm_password"
                     android:text="@string/register"
+                    android:textColor="@color/White"
                     android:background="@drawable/theme_button"/>
 
             </RelativeLayout>
 
-
-
         </RelativeLayout>
+
     </ScrollView>
 
     <ProgressBar
